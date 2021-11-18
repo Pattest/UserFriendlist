@@ -13,6 +13,7 @@
 		275EA43B2746C46800ED6299 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275EA43A2746C46800ED6299 /* Preview Assets.xcassets */; };
 		275EA43D2746C46800ED6299 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275EA43C2746C46800ED6299 /* Persistence.swift */; };
 		275EA4402746C46800ED6299 /* UserFriendlist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 275EA43E2746C46800ED6299 /* UserFriendlist.xcdatamodeld */; };
+		27879B842746CAFA00FE22CA /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 27879B832746CAFA00FE22CA /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		275EA43A2746C46800ED6299 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		275EA43C2746C46800ED6299 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		275EA43F2746C46800ED6299 /* UserFriendlist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserFriendlist.xcdatamodel; sourceTree = "<group>"; };
+		27879B832746CAFA00FE22CA /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		275EA4322746C46500ED6299 /* UserFriendlist */ = {
 			isa = PBXGroup;
 			children = (
+				27879B832746CAFA00FE22CA /* Readme.md */,
 				275EA4332746C46500ED6299 /* UserFriendlistApp.swift */,
 				275EA4352746C46500ED6299 /* ContentView.swift */,
 				275EA4372746C46800ED6299 /* Assets.xcassets */,
@@ -133,6 +136,7 @@
 			files = (
 				275EA43B2746C46800ED6299 /* Preview Assets.xcassets in Resources */,
 				275EA4382746C46800ED6299 /* Assets.xcassets in Resources */,
+				27879B842746CAFA00FE22CA /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
