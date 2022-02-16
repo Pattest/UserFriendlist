@@ -23,7 +23,7 @@ struct ContentView: View {
             VStack {
                 List {
                     ForEach(users, id: \.id) { user in
-                        NavigationLink(destination: UserDetailView(userId: user.getId())) {
+                        NavigationLink(destination: UserDetailView(user: user)) {
                             Text("\(user.getName())")
                             Text("\(user.getFriends().count) friend(s)")
                                 .font(.subheadline)
@@ -38,7 +38,9 @@ struct ContentView: View {
     }
 
     func fetchUserFriendlist() {
-        viewModel.fetchUserFriendlist()
+        if users.isEmpty {
+            viewModel.fetchUserFriendlist()
+        }
     }
 }
 

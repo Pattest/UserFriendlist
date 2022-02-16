@@ -24,17 +24,18 @@ struct UserDetailView: View {
         .navigationBarTitle("\(user.getName())")
     }
 
-    init(userId: String) {
-        let fetchRequest = FetchRequest<User>(
-            entity: User.entity(),
-            sortDescriptors: [],
-            predicate: NSPredicate(format: "id == %@", userId))
-        self.user = fetchRequest.wrappedValue.first ?? User()
+    init(user: User) {
+//        let fetchRequest = FetchRequest<User>(
+//            entity: User.entity(),
+//            sortDescriptors: [],
+//            predicate: NSPredicate(format: "id == %@", userId))
+//        self.user = fetchRequest.wrappedValue.first ?? User()
+        self.user = user
     }
 }
 
-struct UserDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        UserDetailView(userId: "0")
-    }
-}
+//struct UserDetailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        UserDetailView(userId: "0")
+//    }
+//}
